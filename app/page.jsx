@@ -47,7 +47,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-6">
             <Card className="bg-card text-white p-6 text-center space-y-4">
               <img
-                src="/icon-compare.png"
+                src="/compare.svg"
                 alt="Comparação"
                 className="h-12 mx-auto"
               />
@@ -61,11 +61,7 @@ export default function Home() {
             </Card>
 
             <Card className="bg-card text-white p-6 text-center space-y-4">
-              <img
-                src="/icon-money.png"
-                alt="Economia"
-                className="h-12 mx-auto"
-              />
+              <img src="/money.svg" alt="Economia" className="h-12 mx-auto" />
               <h3 className="text-xl font-semibold">Economize de verdade</h3>
               <p className="text-white/70">
                 Descontos de até 90%. Encontre o melhor preço antes de comprar!
@@ -73,15 +69,11 @@ export default function Home() {
             </Card>
 
             <Card className="bg-card text-white p-6 text-center space-y-4">
-              <img
-                src="/icon-easy.png"
-                alt="Facilidade"
-                className="h-12 mx-auto"
-              />
+              <img src="/easy.svg" alt="Facilidade" className="h-12 mx-auto" />
               <h3 className="text-xl font-semibold">Fácil de usar</h3>
               <p className="text-white/70">
                 Instale e pronto! A extensão aparece automaticamente ao visitar
-                uma página de jogo.
+                a página de um jogo.
               </p>
             </Card>
           </div>
@@ -118,7 +110,7 @@ export default function Home() {
 
         {/* Rodapé */}
         <footer className="text-center text-white/50 mt-10 text-sm">
-          © {new Date().getFullYear()} NoobPrice — Feito com ♥ por gamers, para
+          © {new Date().getFullYear()} NoobPrice — Feito com ♥ por gamer, para
           gamers.
         </footer>
       </main>
